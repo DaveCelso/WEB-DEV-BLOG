@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cebu Tourist Spots</title>
+
+        <style>
+
+            body{
+                font-family: Arial;
+                background:#f4f4f4;
+                text-align:center;
+                margin: 0;
+            }
+
+            /* NAVBAR */
+            nav{
+                background:black;
+                padding:10px;
+                text-align:center;
+            }
+
+            nav a{
+                color:grey;
+                text-decoration:none;
+                margin:0 15px;
+                font-size: x-small;
+            }
+
+            nav a:hover{
+                color:#d9d9d9;
+            }
+
+            h1{
+                margin-top:20px;
+            }
+
+            .spots{
+                display:grid;
+                grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+                gap:20px;
+                width:80%;
+                margin:auto;
+            }
+
+            .spot{
+                background:white;
+                padding:10px;
+                border-radius:10px;
+                box-shadow:0 0 5px gray;
+            }
+
+            .spot img{
+                width:100%;
+                border-radius:10px;
+            }
+
+            .spot img:hover{
+                transform:scale(1.05);
+                transition:0.3s;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <!-- NAVIGATION BAR -->
+        <nav>
+            <a href="index.html">About</a>
+            <a href="tourist.html">Tourist Spots</a>
+            <a href="culture.html">Cultures</a>
+            <a href="tradition.html">Traditions</a>
+        </nav>
+
+        <h1>Top Tourist Spots in Cebu</h1>
+        <p>Click the image to view the location.</p>
+
+        <div class="spots">
+
+            <div class="spot">
+                <h3>Oslob Whale Sharks</h3>
+                <a href="https://maps.google.com/?q=Oslob+Cebu" target="_blank">
+                <img src="Media/oslob.jpg">
+                </a>
+            </div>
+
+            <div class="spot">
+                <h3>Moalboal Sardine Run</h3>
+                <a href="https://maps.google.com/?q=Moalboal+Cebu" target="_blank">
+                <img src="Media/moalboal.jpg">
+                </a>
+            </div>
+
+            <div class="spot">
+                <h3>Kawasan Falls</h3>
+                <a href="https://maps.google.com/?q=Kawasan+Falls+Cebu" target="_blank">
+                <img src="Media/kawasan.avif">
+                </a>
+            </div>
+
+            <div class="spot">
+                <h3>Magellan's Cross</h3>
+                <a href="https://maps.google.com/?q=Magellan's+Cross+Cebu" target="_blank">
+                <img src="Media/magellan.jpg">
+                </a>
+            </div>
+
+            <div class="spot">
+                <h3>Bantayan Island</h3>
+                <a href="https://maps.google.com/?q=Bantayan+Island+Cebu" target="_blank">
+                <img src="Media/bantayan.jpg">
+                </a>
+            </div>
+
+            <div class="spot">
+                <h3>Tops Lookout</h3>
+                <a href="https://maps.google.com/?q=Tops+Lookout+Cebu" target="_blank">
+                <img src="Media/tops.jpg">
+                </a>
+            </div>
+
+            <div class="spot">
+                <h3>Temple of Leah</h3>
+                <a href="https://maps.google.com/?q=Temple+of+Leah+Cebu" target="_blank">
+                <img src="Media/temple.jpg">
+                </a>
+            </div>
+
+            <div class="spot">
+                <h3>Sirao Flower Garden</h3>
+                <a href="https://maps.google.com/?q=Sirao+Garden+Cebu" target="_blank">
+                <img src="Media/sirao.jpg">
+                </a>
+            </div>
+
+            <div class="spot">
+                <h3>Simala Shrine</h3>
+                <a href="https://maps.google.com/?q=Simala+Shrine+Cebu" target="_blank">
+                <img src="Media/simala.webp">
+                </a>
+            </div>
+
+            <div class="spot">
+                <h3>Malapascua Island</h3>
+                <a href="https://maps.google.com/?q=Malapascua+Island+Cebu" target="_blank">
+                <img src="Media/malapascua.jpg">
+                </a>
+            </div>
+
+        </div>
+
+    </body>
+</html>
